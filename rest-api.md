@@ -1,7 +1,3 @@
-layout: page
-title: "REST API"
-permalink: /rest-api/
-
 # REST API
 
 Hệ thống được thiết kế theo tiêu chuẩn REST API, dựa trên viết các custom router phục vụ cho lấy dữ liệu khác nhau.
