@@ -12,9 +12,59 @@ Các endpoint của hệ thống theo quy chuẩn:
 wp-json/torus-data/v1/<endpoint_name>
 ```
 
-Các đầu dữ liệu có sẵn bao gồm:
+Param để lấy nội dung theo ngôn ngữ khác, có sẵn trong mọi endpoint. 
 
-**Diseases**
+```
+- wpml_language: string (vd en, vi)
+```
+
+Prefer khi truyền vào lấy dữ liệu đơn lẻ, sử dụng trường dữ liệu `slug`.
+
+```
+post_slug
+term_slug
+```
+
+## Endpoints
+
+### Dữ liệu chung (Global Data)
+
+Các dữ liệu cơ bản như địa chỉ, link mạng xã hội, menu.
+
+Danh sách các menu
+
+```
+get_menus
+```
+
+Lấy danh sách các item trong một menu
+
+```
+get_menu
+
+Params:
+- menu: string
+```
+
+Lấy dữ liệu website chung
+
+```
+get_global_data
+```
+
+Lấy dữ liệu tất cả ngôn ngữ có trên CMS
+
+```
+get_wpml_languages
+```
+
+Lấy dữ liệu app translation
+
+```
+get_app_translations
+```
+
+### Diseases
 
 Lấy danh sách theo thứ tự mới nhất
 
@@ -35,7 +85,7 @@ Params:
 - post_slug: string
 ```
 
-**Disease Categories**
+### Disease Categories
 
 Lấy danh sách tất cả category
 
@@ -54,4 +104,33 @@ get_disease_category
 
 Params:
 - term_slug: string
+```
+
+### Post/News Category
+
+Lấy danh sách danh mục tin tức
+
+```
+get_categories
+```
+
+Lấy danh sách bài viết
+
+```
+get_posts
+
+Params:
+- posts_per_page: number
+- paged: number
+```
+
+### Page
+
+Lấy nội dung bài viết
+
+```
+get_page
+
+Params:
+- post_slug
 ```
