@@ -54,12 +54,6 @@ Lấy dữ liệu tất cả ngôn ngữ có trên CMS
 get_wpml_languages
 ```
 
-Lấy dữ liệu app translation
-
-```
-get_app_translations
-```
-
 ### Diseases
 
 Lấy danh sách theo thứ tự mới nhất
