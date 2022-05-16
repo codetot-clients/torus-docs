@@ -6,6 +6,7 @@ Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho Wor
 
 - [Dịch Disease Category](#dịch-disease-category)
 - [Dịch Disease](#dịch-disease)
+- [Dịch Global Data](#dịch-global-data)
 
 ## Dịch Disease Category
 
@@ -26,3 +27,11 @@ Chọn menu Disease từ danh sách menu chính. Từ cột ngôn ngữ, lựa c
 Trong giao diện sửa, chọn mục Copy content from English để sao chép lần đầu dữ liệu bản gốc sang. Nhập các nội dung khác và lựa chọn Disease Category tương ứng để hoàn tất.
 
 ![Dịch Disease](wpml-disease-translate-2.png)
+
+## Dịch Global Data
+
+> Các dữ liệu này yêu cầu quyền sửa settings nên chỉ các user đủ quyền mới truy cập được.
+
+Chọn menu **Global Data**, lựa chọn từ menu trên cùng (các ngôn ngữ) muốn dịch và nhập dữ liệu rồi lưu lại.
+
+![Dịch Global Data](wpml-translate-acf-options.png)
