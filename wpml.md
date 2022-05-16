@@ -2,6 +2,11 @@
 
 Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho WordPress CMS.
 
+**Mục lục**
+
+- [Dịch Disease Category](#dịch-disease-category)
+- [Dịch Disease](#dịch-disease)
+
 ## Dịch Disease Category
 
 Truy cập vào menu **WPML > Taxonomy translation**, chọn **Disease Category** từ danh sách.
@@ -10,7 +15,14 @@ Truy cập vào menu **WPML > Taxonomy translation**, chọn **Disease Category*
 
 Chọn các item muốn dịch, sẽ có 1 popup hiện ra, nhập thông tin bổ sung và lưu lại.
 
-![Popup dịch term](wpml-term-translate-2.png)
+![Popup dịch term](wpml-disease-translate-1.png)
 
+## Dịch Disease
 
+Chọn menu Disease từ danh sách menu chính. Từ cột ngôn ngữ, lựa chọn bản dịch muốn thêm (là dấu +), hoặc sửa (là dấu -) để tạo bản dịch.
 
+![Dịch Disease](wpml-disease-translate-1.png)
+
+Trong giao diện sửa, chọn mục Copy content from English để sao chép lần đầu dữ liệu bản gốc sang. Nhập các nội dung khác và lựa chọn Disease Category tương ứng để hoàn tất.
+
+![Dịch Disease](wpml-disease-translate-2.png)
