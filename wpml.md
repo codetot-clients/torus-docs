@@ -45,15 +45,15 @@ Bên ngoài giao diện, một số nội dung có thể dịch thuộc về the
 
 Để vào dịch, chọn menu **WPML > Theme and plugins localization**
 
-![Vào menu dịch theme và plugin](wpml-translate-theme-2.jpg)
+![Vào menu dịch theme và plugin](wpml-translate-theme-2.png)
 
 Có 2 bước cần phải tiến hành:
 
 1. Chọn theme `ct-torus` và đánh dấu "Scan selected themes for strings". Điều này giúp bản dịch cập nhật mới nhất các ký tự từ theme.
 2. Để bắt đầu vào danh sách các ký tự cần dịch, click vào thằng cột "Textdomain" tương ứng.
 
-![Dịch theme](wpml-translate-theme-3.jpg)
+![Dịch theme](wpml-translate-theme-3.png)
 
 Với plugin Torus Data, cách làm cũng tương tự:
 
-![Dịch plugin](wpml-translate-plugin-1.jpg)
+![Dịch plugin](wpml-translate-plugin-1.png)
