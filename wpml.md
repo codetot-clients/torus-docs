@@ -7,7 +7,7 @@ Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho Wor
 - [Dịch Disease Category](#dịch-disease-category)
 - [Dịch Disease](#dịch-disease)
 - [Dịch Global Data](#dịch-global-data)
-- [Dịch theme và plugin](#dịch-theme-plugin)
+- [Dịch theme và plugin](#dịch-theme-và-plugin)
 
 ## Dịch Disease Category
 
