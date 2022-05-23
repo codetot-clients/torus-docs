@@ -8,6 +8,7 @@ Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho Wor
 - [Dịch Disease](#dịch-disease)
 - [Dịch Global Data](#dịch-global-data)
 - [Dịch theme và plugin](#dịch-theme-và-plugin)
+- [Đồng bộ ngôn ngữ cho post (Disease, Post, Page)](#dong-bo-post)
 
 ## Dịch Disease Category
 
@@ -57,3 +58,23 @@ Có 2 bước cần phải tiến hành:
 Với plugin Torus Data, cách làm cũng tương tự:
 
 ![Dịch plugin](wpml-translate-plugin-1.png)
+
+## Đồng bộ ngôn ngữ cho post (Disease, Post, Page)
+
+Một vấn đề cần xử lý là sau khi nhập dữ liệu hàng loạt lên (vd bản dịch tiếng Việt của bản gốc tiếng Anh), ta cần xác định bản dịch của từng nội dung là đối chiếu từ bản gốc nào. Thao tác này hiện tại chưa có phương hướng xử lý kỹ thuật, nên cần thực hiện thủ công theo hướng dẫn.
+
+**Bước 1: Chọn sửa nội dung của bản dịch (không phải tiếng Anh), ví dụ một loại bệnh**
+
+**Bước 2: Tìm mục "Connect with translations" từ cột bên phải**
+
+![Menu connect](wpml-post-connect-translation-1.png)
+
+**Bước 3: Ở popup hiện ra, nhập tiêu đề bản gốc tiếng Anh, sau đó ấn các nút Popup cho tới khi kết thúc**
+
+![Chọn bản dịch gốc](wpml-post-connect-translation-2.png)
+
+![Popup xác nhận](wpml-post-connect-translation-3.png)
+
+**Bước 4: Kiểm tra đã đấu nối bản dịch chưa**
+
+![Kiểm tra bản dịch đã đồng bộ chưa](wpml-post-connect-translation-4.png)
