@@ -9,6 +9,7 @@ Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho Wor
 - [Dịch Global Data](#dịch-global-data)
 - [Dịch theme và plugin](#dịch-theme-và-plugin)
 - [Đồng bộ ngôn ngữ cho post (Disease, Post, Page)](#dong-bo-post)
+- [Đồng bộ ngôn ngữ cho term/category](#dong-bo-category)
 
 ## Dịch Disease Category
 
@@ -78,3 +79,9 @@ Một vấn đề cần xử lý là sau khi nhập dữ liệu hàng loạt lê
 **Bước 4: Kiểm tra đã đấu nối bản dịch chưa**
 
 ![Kiểm tra bản dịch đã đồng bộ chưa](wpml-post-connect-translation-4.png)
+
+## Đồng bộ term/category đã dịch
+
+![Chọn term cần đồng bộ để sửa](wpml-term-connect-1.png)
+
+![Chọn bản dịch gốc](wpml-term-connect-1.png)
