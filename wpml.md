@@ -8,8 +8,8 @@ Hệ thống sử dụng WPML - plugin tốt nhất về đa ngôn ngữ cho Wor
 - [Dịch Disease](#dịch-disease)
 - [Dịch Global Data](#dịch-global-data)
 - [Dịch theme và plugin](#dịch-theme-và-plugin)
-- [Đồng bộ ngôn ngữ cho post (Disease, Post, Page)](#dong-bo-post)
-- [Đồng bộ ngôn ngữ cho term/category](#dong-bo-category)
+- [Đồng bộ ngôn ngữ cho post (Disease, Post, Page)](#%C4%91%E1%BB%93ng-b%E1%BB%99-ng%C3%B4n-ng%E1%BB%AF-cho-post-disease-post-page)
+- [Đồng bộ ngôn ngữ cho term/category](#đồng-bộ-termcategory-đã-dịch)
 
 ## Dịch Disease Category
 
@@ -27,9 +27,19 @@ Chọn menu Disease từ danh sách menu chính. Từ cột ngôn ngữ, lựa c
 
 ![Dịch Disease](wpml-disease-translate-1.png)
 
-Trong giao diện sửa, chọn mục Copy content from English để sao chép lần đầu dữ liệu bản gốc sang. Nhập các nội dung khác và lựa chọn Disease Category tương ứng để hoàn tất.
+Trong giao diện sửa, chọn mục Copy content from English để sao chép lần đầu dữ liệu bản gốc sang. **Sau đó, ấn nút Publish để xuất bản bản đã sao chép** (để copy nguyên nội dung gốc, bao gồm cả ảnh sang bản dịch), rồi mới sửa dữ liệu bản dịch.
 
 ![Dịch Disease](wpml-disease-translate-2.png)
+
+**Các mục cơ bản**
+
+- Nhập các nội dung khác
+- Lựa chọn Disease Category
+- Nhập ảnh đại diện ở cột bên phải dưới cùng (**Set Featured Image**)
+
+**Trường hợp dữ liệu là import vào**
+
+Khi dữ liệu ngôn ngữ khác được import vào, ngoài các mục cơ bản nêu trên, cần điều chỉnh [đồng bộ ngôn ngữ bản dịch](wpml.md#%C4%91%E1%BB%93ng-b%E1%BB%99-ng%C3%B4n-ng%E1%BB%AF-cho-post-disease-post-page)
 
 ## Dịch Global Data
 
