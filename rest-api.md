@@ -98,6 +98,12 @@ Params:
 
 ### Post/News Category
 
+Lấy danh sách page News landing (Blog/News)
+
+```
+get_page_for_posts
+```
+
 Lấy danh sách danh mục tin tức
 
 ```
@@ -112,6 +118,16 @@ get_posts
 Params:
 - posts_per_page: number
 - paged: number
+```
+
+Lấy nội dung một bài viết lẻ:
+
+
+```
+get_post
+
+Params:
+- post_slug
 ```
 
 ### Page
