@@ -39,3 +39,7 @@ git checkout -b production
 - [Thay đổi đường dẫn lại cho CMS](https://wordpress.org/support/article/changing-the-site-url/), tốt nhất là [sửa trong database](https://wordpress.org/support/article/changing-the-site-url/#changing-the-url-directly-in-the-database).
 - Truy cập đường dẫn và thiết lập database mới
 - Truy cập vào đường dẫn /wp-admin/, tìm mục **Settings / Permalinks** và ấn nút Lưu lại một lần.
+
+## Deploy thông qua Docker
+
+Trong GitHub, hệ thống tạo phiên bản docker bằng cách phát hành lại từ nhánh `origin/production` sang `docker`. Lấy source bản Docker để deploy.
