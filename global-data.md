@@ -14,7 +14,7 @@ Các dữ liệu này được trích xuất qua endpoint [/get_global_data](res
 
 ## Thêm Global Data
 
-Cần thực hiện 2 bước: Edit Field Group (với quyền admin), và update code bổ sung key tương ứng.
+Cần thực hiện 2 bước: Edit Field Group (với quyền admin), và update tên field bổ sung dạng key tương ứng.
 
 ### Bước 1: Edit Field Group "Global Data"
 
@@ -30,34 +30,12 @@ Các định dạng field được hỗ trợ sẵn sàng để output.
 
 ### Bước 2: Thêm field key vào trong danh sách REST API trả ra
 
-Vào sửa code trong plugin `wp-content/plugins/torus-data/inc/`, tìm function `torus_data_get_global_data`.
+Trong menu chính Global Data, tìm tab REST API Data.
 
-- Nếu key thêm là text thông thường, thêm vào `$acf_keys`:
+![Giao diện set key ACF global data](global-data-set-keys.png)
 
-```php
-$acf_keys = [
-  'address_1',
-  'address_2',
-  'address_3',
-  'footer_copyright',
-  'email',
-  'phone',
-  'facebook',
-  'twitter',
-  'linkedin',
-  'youtube'
-];
-```
-
-Nếu key là media (ảnh tải lên), thêm vào `$media_acf_keys`:
-
-```php
-$media_acf_keys = [
-  'header_logo',
-  'header_alternative_logo',
-  'footer_logo'
-];
-```
+- Nếu key thêm là text thông thường, thêm vào `Text ACF Keys`.
+- Nếu key là media (ảnh tải lên), thêm vào `Media ACF Keys`.
 
 Kiểm tra bằng cách nhập liệu và mở API ra.
 
@@ -65,4 +43,4 @@ Kiểm tra bằng cách nhập liệu và mở API ra.
 
 Tương tự như khi thêmn ở bước trên, với quyền admin, bạn làm lần lượt:
 - Sửa field group "Global Data" trong menu Custom Fields
-- Xoá field key tương ứng trong function `torus_data_get_global_data()`
+- Xoá tên key tương ứng trong menu Global Data > tab REST API Data.
