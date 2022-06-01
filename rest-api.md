@@ -46,6 +46,9 @@ Lấy dữ liệu website chung
 
 ```
 get_global_data
+
+Param ngôn ngữ:
+- lang: (thay cho wpml_language), ví dụ en, vi, fr...
 ```
 
 Lấy dữ liệu tất cả ngôn ngữ có trên CMS
