@@ -101,11 +101,16 @@ Params:
 
 ### Post/News Category
 
-Lấy danh sách page News landing (Blog/News)
+**Lấy danh sách page News landing (Blog/News)**
 
 ```
 get_page_for_posts
 ```
+
+Bao gồm 3 mục chính:
+- 1 bài viết mới nhất (latest)
+- 5 bài viết mới nhất được đánh dấu Sticky khi sửa bài (xem cách đánh dấu bài viết sticky [tại đây](post.md#set-tin-sticky-highlight))
+- 6 bài viết của mỗi danh mục (category)
 
 Lấy danh sách danh mục tin tức
 
