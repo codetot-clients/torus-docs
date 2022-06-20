@@ -110,7 +110,7 @@ get_page_for_posts
 Bao gồm 3 mục chính:
 - 1 bài viết mới nhất (latest)
 - 5 bài viết mới nhất được đánh dấu Sticky khi sửa bài (xem cách đánh dấu bài viết sticky [tại đây](post.md#set-tin-sticky-highlight))
-- 6 bài viết của mỗi danh mục (category)
+- 6 bài viết của mỗi danh mục (category) - có thể chọn danh mục trong page nào có nhãn "Posts"
 
 Lấy danh sách danh mục tin tức
 
@@ -126,6 +126,7 @@ get_posts
 Params:
 - posts_per_page: number
 - paged: number
+- category: string (multiple: cách nhau bởi dấu phẩy, vd beauty-2,beauty-3)
 ```
 
 Lấy nội dung một bài viết lẻ:
