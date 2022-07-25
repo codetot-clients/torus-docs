@@ -46,7 +46,7 @@ Param ngôn ngữ:
 Lấy dữ liệu tất cả ngôn ngữ có trên CMS
 
 ```
-/language
+/languages
 ```
 
 ### Diseases
@@ -60,10 +60,10 @@ Params:
 - posts_per_page: number
 - paged: number
 - categories: string (nếu nhiều hơn 1 thì nhập cách bởi dấu phẩy, vd: a,b,c) - là category slug
-- slugs:  (nếu nhiều hơn 1 thì nhập cách bởi dấu phẩy, vd: a,b,c) - là disease slug
+- slugs: string (nếu nhiều hơn 1 thì nhập cách bởi dấu phẩy, vd: a,b,c) - là disease slug
 ```
 
-> Khi chọn lọc `slugs` thì điều kiện `post_per_page`, `paged` không cần thiết.
+> Khi chọn lọc `slugs` thì điều kiện `post_per_page`, `paged`, `categories` không cần thiết.
 
 Lấy dữ liệu một loại disease theo post slug
 
