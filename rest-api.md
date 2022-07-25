@@ -37,7 +37,7 @@ Lấy danh sách các item trong một menu
 Lấy dữ liệu website chung
 
 ```
-/global_data
+/globalData
 
 Param ngôn ngữ:
 - lang: (thay cho wpml_language), ví dụ en, vi, fr...
@@ -46,7 +46,7 @@ Param ngôn ngữ:
 Lấy dữ liệu tất cả ngôn ngữ có trên CMS
 
 ```
-/wpml_languages
+/language
 ```
 
 ### Diseases
@@ -59,7 +59,11 @@ Lấy danh sách theo thứ tự mới nhất
 Params:
 - posts_per_page: number
 - paged: number
+- categories: string (nếu nhiều hơn 1 thì nhập cách bởi dấu phẩy, vd: a,b,c) - là category slug
+- slugs:  (nếu nhiều hơn 1 thì nhập cách bởi dấu phẩy, vd: a,b,c) - là disease slug
 ```
+
+> Khi chọn lọc `slugs` thì điều kiện `post_per_page`, `paged` không cần thiết.
 
 Lấy dữ liệu một loại disease theo post slug
 
