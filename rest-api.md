@@ -120,8 +120,7 @@ Lấy bài viết được đánh dấu Sticky (nổi bật):
 
 Params:
 - posts_per_page: number (optional)
-- paged: number (optional)
-- categories: number (optional)
+- categories: string (nhiều: cách nhau bởi dấu phẩy, vd `beauty-2,beauty-3`)
 ```
 
 Lấy bài viết theo cấu trúc danh mục (category > posts)
