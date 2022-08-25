@@ -1,14 +1,28 @@
 # Dữ liệu chung (Global Data)
 
+## Cấp độ và yêu cầu
+
+- Người quản lý có quyền cao nhất (Quản trị viên - Administrator - role `manage_options`)
+- Plugin **Advanced Custom Fields (PRO)** đã được kích hoạt
+
+## Menu truy cập
+
+Sau khi đăng nhập, tìm menu chính **"Global Data"**, chọn các tab tương ứng để sửa nội dung.
+
+![Menu sửa dữ liệu chung](global-data-menu.png)
+
+Gồm các tab chính:
+
+- **Info:** dữ liệu cơ bản nhất gồm Logo (logo đầu trang - màu nền tối và sáng, logo cuối trang), địa chỉ, thông tin bản quyền web
+- **Contact:** dữ liệu email và số điện thoại
+- **Social:** địa chỉ các mạng xã hội
+- **REST API Data** (dành cho lập trình viên): thêm các key để hiển thị dữ liệu trong API endpoint. Xem mục "Thêm Global Data" để biết chi tiết
+
+## Giới thiệu
+
 ![Giao diện sửa dữ liệu chung](global-data-edit.jpg)
 
 Dữ liệu chung là các dữ liệu được quy ước sử dụng ở mọi nơi, cung cấp các thông tin cơ bản về Belle, bao gồm:
-
-- Các logo SVG (Header, Footer)
-- Bản quyền cuối trang 
-- Địa chỉ và chi nhánh
-- Thông tin liên hệ
-- Liên kết mạng xã hội
 
 Các dữ liệu này được trích xuất qua endpoint [/get_global_data](rest-api.md#d%E1%BB%AF-li%E1%BB%87u-chung-global-data)
 
