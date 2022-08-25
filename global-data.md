@@ -1,5 +1,14 @@
 # Dữ liệu chung (Global Data)
 
+**Mục lục**
+
+- [Cấp độ và yêu cầu](#cấp-độ-và-yêu-cầu)
+- [Menu truy cập](#menu-truy-cập)
+- [Giới thiệu](#giới-thiệu)
+- [Thêm trường dữ liệu](#thêm-global-data)
+- [Xoá/Đổi trường dữ liệu](#xoáđổi-key-global-data)
+- [Dịch](#dịch)
+
 ## Cấp độ và yêu cầu
 
 - Người quản lý có quyền cao nhất (Quản trị viên - Administrator - role `manage_options`)
@@ -30,9 +39,15 @@ Các dữ liệu này được trích xuất qua endpoint [/get_global_data](res
 
 Cần thực hiện 2 bước: Edit Field Group (với quyền admin), và update tên field bổ sung dạng key tương ứng.
 
-### Bước 1: Edit Field Group "Global Data"
+**Các bước sau chỉ nên dành cho developer hoặc người có kinh nghiệm làm việc với CMS.**
 
-_Trước khi edit bất kỳ field group này, bạn cần xem mục Custom Fields > tìm tab "Sync available" xem có code cập nhật không._
+### Bước 1: Đồng bộ field group mới nhất
+
+Trước khi edit bất kỳ field group này, bạn cần xem mục menu chính **Custom Fields** > tìm tab **"Sync available"** xem có code cập nhật không.
+
+![Xem có tab Sync trong ACF không](global-data-acf-sync.png)
+
+### Bước 2: Sửa Field Group "Global Data"
 
 Vào bằng menu **Custom Fields** > chọn mục **Global Data**. Thêm field mới và lưu lại. Nên đặt tên theo dạng `a_b_c` cho keyword để đúng format hiện tại của code dự án.
 
@@ -42,9 +57,9 @@ Các định dạng field được hỗ trợ sẵn sàng để output.
 - Image
 - Textarea
 
-### Bước 2: Thêm field key vào trong danh sách REST API trả ra
+### Bước 3: Thêm field key vào trong danh sách REST API trả ra
 
-Trong menu chính Global Data, tìm tab REST API Data.
+Trong menu chính Global Data, tìm tab **REST API Data**.
 
 ![Giao diện set key ACF global data](global-data-set-keys.png)
 
@@ -58,3 +73,9 @@ Kiểm tra bằng cách nhập liệu và mở API ra.
 Tương tự như khi thêmn ở bước trên, với quyền admin, bạn làm lần lượt:
 - Sửa field group "Global Data" trong menu Custom Fields
 - Xoá tên key tương ứng trong menu Global Data > tab REST API Data.
+
+## Dịch
+
+Để dịch sang ngôn ngữ, truy cập menu Global Data, chọn lại ngôn ngữ từ thanh bar trên cùng màu đen.
+
+![Giao diện chọn ngôn ngữ cho dịch Global Data](global-data-translate.png)
