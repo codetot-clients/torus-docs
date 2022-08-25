@@ -70,9 +70,19 @@ Kiểm tra bằng cách nhập liệu và mở API ra.
 
 ## Xoá/Đổi key Global Data
 
-Tương tự như khi thêmn ở bước trên, với quyền admin, bạn làm lần lượt:
-- Sửa field group "Global Data" trong menu Custom Fields
-- Xoá tên key tương ứng trong menu Global Data > tab REST API Data.
+1. Truy cập menu **Field Groups**, chọn mục **Global Data** từ danh sách. Chọn key để xoá/sửa và ấn nút Save để có hiệu lực.
+
+Để xoá 1 key:
+
+![Xoá key trong Global Data](global-data-delete-key.png)
+
+Để sửa 1 key:
+
+![Sửa key và name hiển thị trong Global Data](global-data-edit-key.png)
+
+2. Xoá tên key tương ứng trong menu chính **Global Data** > tab **REST API Data**.
+
+![Giao diện set key ACF global data](global-data-set-keys.png)
 
 ## Dịch
 
