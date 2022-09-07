@@ -1,6 +1,11 @@
 # Disease
 
 - [Menu truy cập](#menu-truy-cập)
+- [Thêm mới](#thêm-disease-mới)
+- [Sửa](#sửa-disease-có-sẵn)
+- [Dịch](#dịch-disease)
+- [Xoá](#xoá-disease)
+- [Cập nhật dữ liệu](#cập-nhật-dữ-liệu-disease)
 
 ## Menu truy cập
 
@@ -18,7 +23,7 @@ Bấm vào nút "Add New".
 
 ## Sửa Disease có sẵn
 
-![Quản lý Disease](disease-manage-new.png)
+![Quản lý Disease](disease-manage-item.png)
 
 Để sửa một Disease hiện tại, click thẳng vào tên của Disease.
 Tiếp theo, bạn xem mục "Cập nhật dữ liệu Disease" ở phần dưới.
